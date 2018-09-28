@@ -1480,7 +1480,7 @@ footer h5 a:hover, footer a:hover {
 }
 
 #sub-footer p{
-	margin:0;
+	margin: 0 0 0 35px;
 	padding:0;
 }
 
@@ -1911,17 +1911,19 @@ span.color {
     margin-right: 0;
 /*	float: right;*/
 }
-
+.footmenu ul{
+	margin-bottom: -30px;
+	margin-left: 14px;
+}
 .footmenu li{
 	margin: 5px 0px 5px 80px;
 	float: left;
-	margin-top:-30px;
 	height: auto;
 }
 .white{
 	border: 1px solid white;
-	margin:10px 0px 10px 80px;
-	width:520px;
+	margin: 37px 0px 10px 90px;
+    width: 567px;
 }
 .col-sm-3{
 	margin-left:80px;
@@ -2019,9 +2021,10 @@ dd{
 */
 #mu1{
 	margin-left:100px;
-	border: 1px solid yellow;
 }
 #mu2{
 	margin-left:300px;
-	border: 1px solid red;
 }
+ .team-member img{
+ 	height: 350px;
+ }
